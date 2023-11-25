@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Pattaya&family=Roboto+Condensed:wght@300&family=Sriracha&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Young Serif;
+}
+
+body {
+    background: black;
+}
+
+.main-contriner {
+    border: white 1px solid;
+    width: 500px;
+    height: 460px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+    background: white;
+    border-radius: 20px;
+}
+
+.topic-login {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 27px;
+}
+
+.contriner-keed {
+    border: gainsboro 1px solid;
+}
+
+.input-username {
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 400px;
+    height: 45px;
+    margin-left: 55px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.4s;
+}
+
+.input-password {
+    margin-top: 30px;
+    width: 400px;
+    height: 45px;
+    margin-left: 55px;
+    padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-bottom: gray 1px solid;
+    transition: 0.4s;
+}
+
+.link-forgot {
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    position: relative;
+    top: 30px;
+    left: 55px;
+}
+
+.link-forgot:hover {
+    color: black;
+}
+
+.button-login {
+    margin-top: 50px;
+    margin-left: 55px;
+    width: 400px;
+    height: 45px;
+    border: black 1px solid;
+    border-radius: 10px;
+    background: black;
+    cursor: pointer;
+}
+
+.button-login:hover {
+    background: gainsboro;
+    border: gainsboro 1px solid;
+}
+
+.link-login {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link-login:hover {
+    color: black;
+}
+
+.text-not {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.link-signup {
+    font-size: 17px;
+    text-decoration: none;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.link-signup:hover {
+    color: black;
+}
+
+@media screen and (max-width: 480px){
+    .main-contriner {
+        width: 440px;
+    }
+
+    .input-username {
+        width: 330px;
+        font-size: 13px;
+    }
+
+    .input-password {
+        width: 330px;
+        font-size: 13px;
+    }
+
+    .link-forgot {
+        font-size: 15px;
+    }
+
+    .button-login {
+        width: 330px;
+    }
+
+    .text-not {
+        font-size: 14px;
+    }
+
+    .link-signup {
+        font-size: 15px;
+    }
+}
